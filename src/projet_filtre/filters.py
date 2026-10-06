@@ -1,6 +1,5 @@
 import numpy as np  # pyright: ignore[reportMissingImports]
 
-
 class Filter:
 
     def brightness(self, im: np.ndarray, level: float) -> np.ndarray:
@@ -22,5 +21,3 @@ class Filter:
                 )
 
         return result
-
-    
