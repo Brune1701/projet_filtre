@@ -15,5 +15,5 @@ def main():
         # load image
         # apply filter
         # save img
-        
+
 main()
